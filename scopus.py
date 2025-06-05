@@ -3,7 +3,7 @@ import requests
 scopus_id = "7004212771"
 url = f"https://api.elsevier.com/content/search/scopus?query=AU-ID({scopus_id})&count=25"
 headers = {
-    "X-ELS-APIKey": "5a030f90b2416e25e48be43a59a23bba",
+    "X-ELS-APIKey": "YOUR-API-KEY",
     "Accept": "application/json"
 }
 
